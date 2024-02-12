@@ -4,7 +4,8 @@ This is one of the exciting things I have learned in Linux - Ubuntu
 ## Task 1
 ### A bash script to prompt and allow the user to perform basic functions on the terminal
 
-`#!/bin/bash
+```
+ #!/bin/bash
 
 echo
 dir=$(pwd)
@@ -277,4 +278,4 @@ case $choice in
 		;;
 esac
 done
-`
+```
