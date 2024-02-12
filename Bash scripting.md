@@ -1,4 +1,4 @@
-#Bash scripting
+# Bash scripting
 This is one of the exciting things I have learned in Linux - Ubuntu
 
 ## Task 1
