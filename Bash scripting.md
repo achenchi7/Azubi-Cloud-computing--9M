@@ -4,6 +4,15 @@ This is one of the exciting things I have learned in Linux - Ubuntu
 ## Task 1
 ### A bash script to prompt and allow the user to perform basic functions on the terminal
 
+I used the **Nano** editor to write the code. To create/open in Nano from the terminal, run the command
+
+```
+nano <filename>
+
+```
+
+Here's the bash script that guides/prompts the user to perform basic file operations.
+
 ```
  #!/bin/bash
 
