@@ -1,5 +1,5 @@
 #Bash scripting
-This is one of the exciting things I have learnt in Linux - Ubuntu
+This is one of the exciting things I have learned in Linux - Ubuntu
 
 ## Task 1
 ### A bash script to prompt and allow the user to perform basic functions on the terminal
@@ -14,15 +14,15 @@ echo
 while true; do
 	echo "Select an option [1-9]"
 	echo "-----------------------"
-	echo "1.Create a new directory"
-	echo "2.Delete an existing directory"
-	echo "3.List the contents of a directory"
-	echo "4.Change into a directory"
-	echo "5.Create a new file"
-	echo "6.Write to an existing file"
-	echo "7.Read from an existing file"
-	echo "8.Delete an existing file"
-	echo "9.Exit the script."
+	echo "1. Create a new directory"
+	echo "2. Delete an existing directory"
+	echo "3. List the contents of a directory"
+	echo "4. Change into a directory"
+	echo "5. Create a new file"
+	echo "6. Write to an existing file"
+	echo "7. Read from an existing file"
+	echo "8. Delete an existing file"
+	echo "9. Exit the script."
 
 	read choice
 
@@ -34,7 +34,7 @@ case $choice in
 		
 		if [ -d $dir/$dirname ]
 		then
-			echo -e "Directory name already exist"
+			echo -e "Directory name already exists"
 			echo -e "Choose another name"
 			echo
 		else
